@@ -13,13 +13,17 @@
 .nav-list {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   gap: 40px;
 }
 .nav-link {
   position: relative;
   display: block;
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 8px 12px;
   font-weight: 500;
+  font-size: 24px;
   letter-spacing: 0.02em;
   transition: 200ms ease-in;
 }
